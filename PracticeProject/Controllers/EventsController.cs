@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -17,6 +18,27 @@ namespace PracticeProject.Controllers
         {
             _context = new ApplicationDbContext();
         }
+
+        [Authorize]
+        public ActionResult Attending()
+        {
+            var userId = User.Identity.GetUserId();
+            var events = _context.Attendances
+                .Where(a => a.AttendeeId == userId)
+                .Select(a => a.Event)
+                .Include(g => g.Artist)
+                .Include(g => g.Type)
+                .ToList();
+
+            var viewModel = new EventsViewModel()
+            {
+                UpcomingEvents = events,
+                Heading = "Events I'm Attending"
+            };
+            return View(viewModel);
+        }
+
+
         // GET: Events
         [Authorize]
         public ActionResult Create()

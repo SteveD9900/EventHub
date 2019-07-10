@@ -110,3 +110,14 @@ C:\Users\Steve\Source\Repos\PracticeProject\PracticeProject\obj\Debug\PracticePr
 C:\Users\Steve\Source\Repos\PracticeProject\PracticeProject\obj\Debug\PracticeProject.Migrations.overrideconventions.resources
 C:\Users\Steve\Source\Repos\PracticeProject\PracticeProject\obj\Debug\PracticeProject.Migrations.populateEventTable.resources
 C:\Users\Steve\Source\Repos\PracticeProject\PracticeProject\obj\Debug\PracticeProject.Migrations.changes.resources
+C:\Users\Steve\Source\Repos\PracticeProject\PracticeProject\obj\Debug\PracticeProject.Migrations.addname.resources
+C:\Users\Steve\Source\Repos\PracticeProject\PracticeProject\obj\Debug\PracticeProject.Migrations.addAttendances.resources
+C:\Users\Steve\Source\Repos\PracticeProject\PracticeProject\bin\System.Net.Http.Formatting.dll
+C:\Users\Steve\Source\Repos\PracticeProject\PracticeProject\bin\System.Web.Http.dll
+C:\Users\Steve\Source\Repos\PracticeProject\PracticeProject\bin\System.Web.Http.WebHost.dll
+C:\Users\Steve\Source\Repos\PracticeProject\PracticeProject\bin\System.Net.Http.Formatting.xml
+C:\Users\Steve\Source\Repos\PracticeProject\PracticeProject\bin\System.Web.Http.xml
+C:\Users\Steve\Source\Repos\PracticeProject\PracticeProject\bin\System.Web.Http.WebHost.xml
+C:\Users\Steve\Source\Repos\PracticeProject\PracticeProject\obj\Debug\PracticeProject.Migrations.addfollowing.resources
+C:\Users\Steve\Source\Repos\PracticeProject\PracticeProject\obj\Debug\PracticeProject.Migrations.addartistid.resources
+C:\Users\Steve\Source\Repos\PracticeProject\PracticeProject\obj\Debug\PracticeProject.Migrations.removerequired.resources

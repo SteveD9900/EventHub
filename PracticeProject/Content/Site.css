@@ -1,5 +1,5 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 150px;
     padding-bottom: 20px;
 }
 
@@ -21,4 +21,95 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+/*Bootstrap Override*/
+.navbar-inverse {
+    background-color: #ea1616;
+    border-color: #b70101;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #f9f6f6;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #f7f1f1;
+}
+
+body {
+    font-size: 17px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    font-size: 17px;
+    padding: 5px 5px;
+    border-radius: 9px;
+}
+
+.btn {
+    /*font-size: 17px;
+    padding: 7px 20px;*/
+    border-radius: 9px;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #92535378;
+}
+
+span.field-validation-error {
+    color: red;
+    font-weight: bold;
+}
+
+.events {
+    list-style: none;
+}
+
+.events > li {
+    position:relative;
+    margin-bottom:30px;
+}
+
+.events > li .date {
+    background:red;
+    color: white;
+    text-align: center;
+    width: 60px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.events > li .date .month {
+    text-transform:uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 6px;
+}
+
+.events > li .date .day {
+    background: #f7f7f7;
+    color: #333;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+.events > li .details {
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
+
+.events > li .details .artist {
+    font-weight: bold;
+    display: block;
+}
+
+.events > li .details .genre {
+    font-size: 15px;
 }

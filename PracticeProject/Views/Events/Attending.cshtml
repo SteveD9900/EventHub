@@ -1,0 +1,16 @@
+﻿@model PracticeProject.ViewModels.EventsViewModel
+
+@{
+    ViewBag.Title = "Attending";
+}
+
+
+<h1>@Model.Heading</h1>
+
+<ul>
+    @foreach (var events in Model.UpcomingEvents)
+    {
+        <li>@events.Venue</li>
+    }
+</ul>
+

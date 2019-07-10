@@ -64,6 +64,10 @@ namespace PracticeProject.Models
 
     public class RegisterViewModel
     {
+        [StringLength(100)]
+        [Display(Name = "Name")]
+        public string Name { get; set; }
+
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]
